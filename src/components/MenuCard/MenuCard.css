@@ -1,0 +1,72 @@
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menu-image-container {
+  width: 100%;
+  aspect-ratio: 1.18 / 1;
+  overflow: hidden;
+  background-color: #F7F5F0;
+  border-radius: 12px;
+}
+
+.menu-image-container.contain-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #FAF7F2 0%, #EDE7DD 100%);
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.menu-image-container.contain-mode .menu-image {
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.menu-card:hover .menu-image {
+  transform: scale(1.05);
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-bottom: 1px dotted rgba(47, 36, 31, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.menu-name {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--color-dark-brown);
+  line-height: 1.35;
+}
+
+.menu-price {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--color-coffee-brown);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.menu-description {
+  font-size: 0.875rem;
+  color: rgba(47, 36, 31, 0.7);
+  line-height: 1.5;
+}
