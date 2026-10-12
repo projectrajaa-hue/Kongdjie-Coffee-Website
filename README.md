@@ -1,16 +1,75 @@
-# React + Vite
+# KongDjie Coffee Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An informational website for KongDjie Coffee, designed to introduce the coffee shop, showcase its menu, and provide visitors with information about its atmosphere and location.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+KongDjie Coffee Website is a web development project focused on presenting a coffee shop through a clean, warm, and user-friendly interface. The website helps visitors explore the coffee shop's identity, menu offerings, and other important information.
 
-## React Compiler
+This project was developed as a frontend web development portfolio project.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Home Page** — Introduces KongDjie Coffee with an engaging landing page.
+- **Menu** — Displays coffee shop menu information.
+- **About Us** — Presents information about the coffee shop.
+- **Gallery** — Showcases the coffee shop's atmosphere and visuals.
+- **Contact & Location** — Provides information for visitors who want to find or contact the coffee shop.
+- **Responsive Design** — Designed to provide a comfortable browsing experience across different screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- JavaScript
+- Vite
+- CSS
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your computer.
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/projectrajaa-hue/Kongdjie-Coffee-Website.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Kongdjie-Coffee
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Environment Variables
+
+If Firebase is configured, create a `.env` file in the project root and add the required Firebase configuration values.
+
+Use `.env.example` as a reference. Do not commit your actual `.env` file or expose private credentials.
+
+## Project Status
+
+This project is under development.
+
+## Author
+
+**Raja Ammar Syafiq**
+
+GitHub: [projectrajaa-hue](https://github.com/projectrajaa-hue)
